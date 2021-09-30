@@ -2,7 +2,9 @@
 
 pi-bootbuilder is a small docker based tool that generates the data for the boot
 partition for raspberry pi 3+4 (aarch64) based on
-[u-boot](https://github.com/u-boot/u-boot).
+[u-boot](https://github.com/u-boot/u-boot). 
+This is designed to run on every platform that supports cross-compiling to aarch64
+on ubuntu:latest.
 
 ## Building the docker image
 
